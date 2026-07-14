@@ -1,54 +1,71 @@
 # EV-Population-Prediction
 
-## 📌 Project Overview
+## Project Overview
 
-This project analyzes the **Electric Vehicle (EV) Population** dataset to gain insights into EV adoption trends through data analysis and machine learning techniques. The project covers the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model development, and performance evaluation.
-
-The primary objective is to understand the factors influencing EV registrations and build predictive models using the available data.
+This project focuses on preprocessing the Electric Vehicle (EV) Population dataset to prepare it for machine learning. It includes Exploratory Data Analysis (EDA), data cleaning, encoding categorical features, and scaling numerical features.
 
 ---
+
+## Objectives
+
+* Perform Exploratory Data Analysis (EDA).
+* Clean and preprocess the dataset.
+* Handle missing values and duplicate records.
+* Encode categorical variables.
+* Scale numerical features for consistent model input.
+
+----
 
 ## 📂 Dataset
 
 - **Dataset:** Electric Vehicle Population Data
 - **Source:** Publicly available EV Population dataset
 - **Type:** Structured tabular dataset
-- **Target Variable:** Electric Vehicle Type
+- **Target Variable:** Electric Vehicle Ty
 
----
+----
 
-## 🎯 Objectives
+## Project Workflow
 
-- Analyze Electric Vehicle population data.
-- Clean and preprocess the dataset.
-- Handle missing values and duplicates.
-- Perform Exploratory Data Analysis (EDA).
-- Engineer relevant features.
-- Train and evaluate machine learning models.
-- Visualize important insights and trends.
+1. Import the dataset.
+2. Perform Exploratory Data Analysis (EDA).
+3. Handle missing values.
+4. Remove duplicate records.
+5. Encode categorical features.
+6. Apply feature scaling to numerical features.
+7. Save the processed dataset.
 
----
+----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
----
+----
 
-## 📊 Project Workflow
+## Features
 
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Data Preprocessing
-6. Model Training
-7. Model Evaluation
-8. Result Visualization
+* Exploratory Data Analysis (EDA)
+* Data Cleaning
+* Missing Value Handling
+* Duplicate Removal
+* Categorical Feature Encoding
+* Numerical Feature Scaling
 
----
+----
+
+## Contributors
+* Aswin         -    EDA & Preprocessing
+* Anand         -    Outlier Handling
+* Midhula M S   -    Template & Scaling
+* Meenakshi     -    Encoding
+
+## License
+
+This project is created for educational and learning purposes.
+
